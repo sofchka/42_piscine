@@ -14,8 +14,8 @@ void	rush(int x, int y);
 
 int	main(int argc, char *argv[])
 {
-	int x = *argv[1] - '0';
-	int y = *argv[2] - '0';
-	rush(x,y);
+	int x = argv[1] + '0';
+	int y = argv[2] + '0';
+	rush(x, y);
 	return (0);
 }
